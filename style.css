@@ -1,0 +1,33 @@
+
+:root{
+    --spacing: 10px ;
+    --color: red;
+    --blur:1px;
+}
+h2{
+    margin-bottom: 20px;
+}
+.heading{
+    color: var(--color);
+}
+input{
+    width:100px;
+}
+body{
+
+    padding: 20px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+img{
+    filter: blur(var(--blur));
+    padding: var(--spacing);
+    height: 400px;
+    width: 650px;
+    background-color: var(--color);
+}
